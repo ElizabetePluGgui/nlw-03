@@ -1,9 +1,10 @@
+import React from "react";
+import MainRoutes from "./routes";
+
+import "./styles/global.css";
+
 function App() {
-  return (
-    <div className="App">
-      <p>HELLO WORD</p>
-    </div>
-  );
+  return <MainRoutes />;
 }
 
 export default App;
